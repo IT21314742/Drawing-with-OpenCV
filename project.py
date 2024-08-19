@@ -11,7 +11,8 @@ while True:
     img = cv2.line(frame, (0, 0), (width, height), (255, 0, 0), 10)
     img = cv2.line(img, (0, height), (width, 0), (0, 255, 0), 5)
 
-    img = cv2.rectangle()
+    img = cv2.rectangle(img)
+    
 
 
     cv2.imshow('frame', img)
