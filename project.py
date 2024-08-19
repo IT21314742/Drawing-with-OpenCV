@@ -11,7 +11,6 @@ while True:
     img = cv2.line(frame, (0, 0), (width, height), (255, 0, 0), 10)
 
 
-
     cv2.imshow('frame', img)
 
     if cv2.waitKey(1) == ord('q'):
