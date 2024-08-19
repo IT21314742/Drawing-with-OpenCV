@@ -9,7 +9,7 @@ while True:
     height = int(cap.get(4))
 
     img = cv2.line(frame, (0, 0), (width, height), (255, 0, 0), 10)
-    img = cv2.line(, (0, 0), (width, height), (255, 0, 0), 10)
+    img = cv2.line(img, (0, 0), (width, height), (255, 0, 0), 10)
 
 
     cv2.imshow('frame', img)
