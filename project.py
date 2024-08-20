@@ -14,7 +14,6 @@ while True:
     img = cv2.rectangle(img, (100, 100), (200, 200), (128, 128, 128), 5)
 
 
-
     cv2.imshow('frame', img)
 
     if cv2.waitKey(1) == ord('q'):
