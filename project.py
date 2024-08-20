@@ -14,7 +14,7 @@ while True:
     img = cv2.rectangle(img, (100, 100), (200, 200), (128, 128, 128), 5)
     img = cv2.circle(img, (300, 300), 60, (0, 0, 255), -1)
     font = cv2.FONT_HERSHEY_SIMPLEX
-    img = cv2.putText(img, 'Vihan Jayasinghe', (10, height - 10), font, 1, (0, 0, 0), 5, cv2.LINE_AA)
+    img = cv2.putText(img, 'Vihan Jayasinghe', (10, height - 10), font, 2, (0, 0, 0), 5, cv2.LINE_AA)
 
 
 
